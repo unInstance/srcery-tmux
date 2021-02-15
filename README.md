@@ -1,3 +1,7 @@
+# Notes from me
+
+I have cleared the status line on the right.
+
 # srcery-tmux
 
 ![tmux-srcery screenshot](assets/screenshot.png)
@@ -12,7 +16,7 @@ tmux theme for the [srcery](https://github.com/srcery-colors/) color scheme.
 ## Installation
 ### Manually (Using `git` & `run-shell`)
 ```shell
-git clone https://github.com/srcery-colors/srcery-tmux/ ~/.tmux/themes/srcery-tmux
+git clone https://github.com/unInstance/srcery-tmux/ ~/.tmux/themes/srcery-tmux
 ```
 Then add the folling to your `.tmux.conf` file:
 ```tmux
@@ -21,7 +25,7 @@ run -b ~/.tmux/themes/srcery-tmux/srcery.tmux
 ### [TPM](https://github.com/tmux-plugins/tpm)
 Add following to your plugin list:
 ```tmux
-set -g @plugin 'srcery-colors/srcery-tmux'
+set -g @plugin 'unInstance/srcery-tmux'
 ```
 
 ## Options
